@@ -29,7 +29,7 @@ public class  healthidgenerationManageController {
 	
 	protected final Log log = LogFactory.getLog(getClass());
 	
-	@RequestMapping(value = "/module/healthid/manage", method = RequestMethod.GET)
+	@RequestMapping(value = "/module/healthid/manages", method = RequestMethod.GET)
 	public void manage(ModelMap model) {
 		model.addAttribute("user", Context.getAuthenticatedUser());
 	}
